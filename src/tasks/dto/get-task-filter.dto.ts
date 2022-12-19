@@ -11,6 +11,6 @@ export class GetTaskFilterDto {
   ])
   status: TaskStatus;
 
-  @IsNotEmpty()
+  @IsOptional()
   search: string;
 }
